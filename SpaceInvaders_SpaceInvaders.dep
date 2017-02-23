@@ -1,0 +1,26 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x51981D5A)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5344459E)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5344459E)
+F (.\random.s)(0x54A16BDA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x58AE66C7)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (..//tm4c123gh6pm.h)(0x51D49AE2)
+I (Nokia5110.h)(0x5344459E)
+I (Random.h)(0x54A16BDA)
+I (TExaS.h)(0x569BA988)
+I (SoundEffect.h)(0x58ACFF74)
+I (DigitalAnalogConverter.h)(0x58ACFD75)
+I (SlideADC.h)(0x58AD2ADF)
+F (.\TExaS.c)(0x569BA9A8)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569BA988)
+F (.\DigitalAnalogCOnverter.c)(0x58AD4555)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\digitalanalogconverter.o --omf_browse .\digitalanalogconverter.crf --depend .\digitalanalogconverter.d)
+I (DigitalAnalogConverter.h)(0x58ACFD75)
+I (..//tm4c123gh6pm.h)(0x51D49AE2)
+F (.\SlideADC.c)(0x58AD622A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\slideadc.o --omf_browse .\slideadc.crf --depend .\slideadc.d)
+I (SlideADC.h)(0x58AD2ADF)
+I (..//tm4c123gh6pm.h)(0x51D49AE2)
+F (.\SoundEffect.c)(0x58ACFF64)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\soundeffect.o --omf_browse .\soundeffect.crf --depend .\soundeffect.d)
+I (SoundEffect.h)(0x58ACFF74)
+I (DigitalAnalogConverter.h)(0x58ACFD75)
+I (..//tm4c123gh6pm.h)(0x51D49AE2)
+I (TExaS.h)(0x569BA988)
